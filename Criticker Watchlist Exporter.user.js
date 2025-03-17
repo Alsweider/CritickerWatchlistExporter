@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Criticker Watchlist Exporter
 // @namespace    http://tampermonkey.net/
-// @version      0.0.5
+// @version      0.0.6
 // @description  Exports the entries of a Criticker watchlist to CSV.
 // @author       Alsweider
 // @match        https://www.criticker.com/films/?collection=*
@@ -25,7 +25,7 @@
     function extractEntriesFromDocument(doc) {
         let entries = [];
         doc.querySelectorAll(".fl_name").forEach(div => {
-            let titleElement = div.querySelector(".fl_titlelist_link");
+            let titleElement = div.querySelector("[id^='fl_titlelist_link_']");
             let scoreElement = div.parentElement.querySelector(".pti");
             if (titleElement) {
                 let fullText = titleElement.innerText.trim();
