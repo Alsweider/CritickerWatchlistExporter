@@ -1,6 +1,6 @@
 ### Criticker Watchlist Exporter
 
-Adds a button on Criticker.com to export the watchlist as a CSV file. The CSV contains the columns "Title", "Year" and "Probable Score".
+Adds a button on Criticker.com to export your watchlist or collection of films / games as a CSV file. The CSV contains the columns "Title", "Year" and "Probable Score".
 
 ![2024-12-21 14_43_57-Criticker Watchlist_ A Collection at Criticker - Brave](https://github.com/user-attachments/assets/d3c8fa72-c1ab-46aa-8ac6-9f220b8d0984)
 
